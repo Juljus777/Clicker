@@ -1,8 +1,8 @@
 {
   "name": "clicker",
   "version": "1.0.0",
-  "description": "My mathematical Nuxt.js project",
-  "author": "Anna Andreas",
+  "description": "My fantabulous Nuxt.js project",
+  "author": "",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "@nuxtjs/bulma": "^1.2.1"
+    "@nuxtjs/bulma": "^1.2.1",
+    "@nuxtjs/axios": "^5.3.6"
   },
   "devDependencies": {}
 }

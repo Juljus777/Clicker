@@ -1,6 +1,6 @@
 # clicker
 
-> My mathematical Nuxt.js project
+> My fantabulous Nuxt.js project
 
 ## Build Setup
 
