@@ -1,13 +1,13 @@
 <template>
   <div>
-    <button @click=" buyFromShop" class="button is-primary" :disabled="$store.state.counter<this.cost">{{this.name}} costs: {{this.cost}}</button>
+    <button @click=" buyFromShop" class="button is-danger" :disabled="$store.state.counter<this.cost">{{this.name}} costs: {{this.cost}}</button>
   </div>
 </template>
 
 <script>
     export default {
         name: "Autoclick",
-        props: ['name', 'cost', 'cps', 'type', 'buyCount', 'butLimit'],
+        props: ['name', 'cost', 'cps', 'type'],
         methods: {
           buyFromShop(){
             this.buyCount++;
