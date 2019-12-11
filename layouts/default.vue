@@ -6,7 +6,6 @@
 </template>
 
 <style>
-
 </style>
 <script>
     import Shop from "../components/shop";
